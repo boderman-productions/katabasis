@@ -37,6 +37,6 @@ public class PerlinTerrainGenerator : MonoBehaviour
         float xCoord = (float)x / width * scale;
         float yCoord = (float)y / height * scale;
 
-        return Mathf.PerlinNoise(xCoord, yCoord); 
+        return Mathf.PerlinNoise(xCoord, yCoord); //returns perlin noise at noisemap coords
     }
 }
