@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f2812547c0d15ce488c3942a144e7703
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Sea: {fileID: 3381328897942362985, guid: 8813ae0b0942dae408d8cb717931a160, type: 3}
+  - Land: {fileID: 5189349552965065247, guid: 4af5f7c95b6bf1245862ef1d7214f517, type: 3}
+  - Hill: {fileID: 7071327053065277687, guid: 9e7fc9f9c01c2a6489f997d8a203b99f, type: 3}
+  - Mountain: {fileID: 6073401238483268821, guid: 921cf580ac1e8844da7bf81729f8d224,
+      type: 3}
+  - Tree: {fileID: 8722938849764959471, guid: fd86cb4ef71016243a4f5c1327f8e286, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
