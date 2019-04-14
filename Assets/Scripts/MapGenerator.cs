@@ -34,13 +34,10 @@ public class MapGenerator : MonoBehaviour
             {
                 elevationGrid[i, j] = Mathf.PerlinNoise((float)i / noiseScale + noiseSeed, (float)j / noiseScale + noiseSeed);
                 float k = elevationGrid[i, j];
-                if (k <= 0.5)
-                {
                     Instantiate(Sea, new Vector3(i, 1.9f, j), Quaternion.identity); //spawns sea block
-                }
                 if (k >= 0.5 && k <= 0.6)
                 {
-                    float r = Random.Range(2.0f, 2.2f);
+                    float r = Random.Range(1.9f, 2.2f);
                     Instantiate(Land, new Vector3(i, r, j), Quaternion.identity); //spawns land block
                     float r2 = Random.Range(0, 20); //chance of spawning trees on land blocks
                     if (r2 < 1)
