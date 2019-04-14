@@ -23,7 +23,7 @@ public class MapGenerator : MonoBehaviour
         mapHeight = 50;
         elevationGrid = new float[mapWidth, mapHeight];
         noiseSeed = Random.Range(0, 1000); //gives noise a random seed. change to a set variable if you want a repeatable level generation.
-        noiseScale = 7; //sets the scale of noise generation. 5-12 is a decent range, otherwise land masses get unrealistic
+        noiseScale = 10; //sets the scale of noise generation. 5-12 is a decent range, otherwise land masses get unrealistic
     }
 
     void Start()
@@ -34,11 +34,11 @@ public class MapGenerator : MonoBehaviour
             {
                 elevationGrid[i, j] = Mathf.PerlinNoise((float)i / noiseScale + noiseSeed, (float)j / noiseScale + noiseSeed);
                 float k = elevationGrid[i, j];
-                if (k <= 0.4)
+                if (k <= 0.5)
                 {
                     Instantiate(Sea, new Vector3(i, 1.9f, j), Quaternion.identity); //spawns sea block
                 }
-                if (k >= 0.4 && k <= 0.6)
+                if (k >= 0.5 && k <= 0.6)
                 {
                     float r = Random.Range(2.0f, 2.2f);
                     Instantiate(Land, new Vector3(i, r, j), Quaternion.identity); //spawns land block
