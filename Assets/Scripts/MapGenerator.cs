@@ -22,7 +22,7 @@ public class MapGenerator : MonoBehaviour
         mapWidth = 50;
         mapHeight = 50;
         elevationGrid = new float[mapWidth, mapHeight];
-        noiseSeed = Random.Range(0, 10000000); //gives noise a random seed. change to a set variable if you want a repeatable level generation.
+        noiseSeed = Random.Range(0, 1000); //gives noise a random seed. change to a set variable if you want a repeatable level generation.
         noiseScale = 7; //sets the scale of noise generation. 5-12 is a decent range, otherwise land masses get unrealistic
     }
 
@@ -60,7 +60,7 @@ public class MapGenerator : MonoBehaviour
                 }
                 if (k >= 0.8)
                 {
-                    float r = Random.Range(3.0f, 4.0f);
+                    float r = Random.Range(3.0f, 3.5f);
                     Instantiate(Mountain, new Vector3(i, r, j), Quaternion.identity); //spawns mountain block
                 }
             }
