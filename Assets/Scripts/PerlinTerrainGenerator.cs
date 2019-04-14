@@ -5,10 +5,12 @@ public class PerlinTerrainGenerator : MonoBehaviour
     public int width = 256;
     public int height = 256;
     public int depth = 10;
-    public float scale = 5f;
+    public float scale = 10f;
+    public float seed;
 
     void Start()
     {
+        seed = Random.Range(0f, 10000f);
         Terrain terrain = GetComponent<Terrain>();
         terrain.terrainData = GenerateTerrain(terrain.terrainData); //terrain data = newly generated terrain, and not the default setting
     }
@@ -37,6 +39,6 @@ public class PerlinTerrainGenerator : MonoBehaviour
         float xCoord = (float)x / width * scale;
         float yCoord = (float)y / height * scale;
 
-        return Mathf.PerlinNoise(xCoord, yCoord); //returns perlin noise at noisemap coords
+        return Mathf.PerlinNoise(xCoord + seed, yCoord + seed); //returns perlin noise at noisemap coords
     }
 }
