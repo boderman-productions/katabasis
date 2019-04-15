@@ -175,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170076733}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -6.82, y: 3, z: 0}
+  m_LocalPosition: {x: 14, y: 3, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -257,7 +257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.21895583, y: -0, z: -0, w: 0.97573483}
-  m_LocalPosition: {x: 124.9, y: 182.4, z: -165.1}
+  m_LocalPosition: {x: 249.3, y: 205.9, z: -154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 1250779867}
   - component: {fileID: 1250779868}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: BaseTerrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,8 +358,8 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 145
   m_DetailObjectDensity: 0.411
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 1
+  m_SplatMapDistance: 2000
   m_HeightmapMaximumLOD: 0
   m_CastShadows: 1
   m_DrawHeightmap: 1
@@ -374,7 +374,7 @@ Terrain:
   m_MaterialTemplate: {fileID: 2100000, guid: 11aca291a9f35684b92e06b6a88512bf, type: 2}
   m_BakeLightProbesForTrees: 0
   m_PreserveTreePrototypeLayers: 0
-  m_ScaleInLightmap: 0.02
+  m_ScaleInLightmap: 0.05
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_AllowAutoConnect: 1
@@ -404,9 +404,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0c0112e18f5ec84d97640fcb33b71c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 256
-  length: 256
-  depth: 35
+  width: 512
+  length: 512
+  depth: 50
   scale: 5
   seed: 0
 --- !u!114 &1250779868
@@ -423,14 +423,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   splatHeights:
   - textureIndex: 0
-    startingHeight: 7
-    endingHeight: 100
-  - textureIndex: 1
     startingHeight: 5
-    endingHeight: 7
+    endingHeight: 1000
+  - textureIndex: 1
+    startingHeight: 3
+    endingHeight: 5
   - textureIndex: 1
     startingHeight: 0
-    endingHeight: 5
+    endingHeight: 3
 --- !u!1 &1680524385
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 1680524387}
   - component: {fileID: 1680524386}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,8 +504,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680524385}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 128, y: 6.1, z: 128}
-  m_LocalScale: {x: 256, y: 256, z: 1}
+  m_LocalPosition: {x: 256, y: 0.9, z: 256}
+  m_LocalScale: {x: 512, y: 512, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
