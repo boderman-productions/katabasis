@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 524}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 0
     width: 1057
     height: 457
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 218
+  controlID: 56
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,7 +96,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 524}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -142,10 +142,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 538, y: 474}
-  m_MaxSize: {x: 18008, y: 14024}
+  m_MinSize: {x: 713, y: 498}
+  m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 217
+  controlID: 153
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 457
     width: 1057
     height: 490
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -214,10 +214,10 @@ MonoBehaviour:
     y: 0
     width: 410
     height: 947
-  m_MinSize: {x: 234, y: 474}
-  m_MaxSize: {x: 10004, y: 14024}
+  m_MinSize: {x: 234, y: 498}
+  m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 109
+  controlID: 88
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,15 +237,15 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 947
-  m_MinSize: {x: 102, y: 124}
+  m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 410
     height: 415
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -359,9 +359,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -545,24 +545,85 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: ..
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - d50ad8c3ae3cde14eb1f0588e81719aa
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\New Terrain.asset
+          label: New Terrain.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\New Terrain.asset
+            fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+            projectPath: Assets\New Terrain.asset
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
         keys:
+        - Assets
         - Library
         - Library\gfu
         - Library\gfu\cache
-        - Temp
+        - Library\metadata
+        - Library\metadata\d5
+        - Library\StateCache
+        - Library\StateCache\Hierarchy
+        - Library\StateCache\SceneView
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -617,9 +678,81 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Temp
-          label: Temp
-          level: 0
+        - path: Library\metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\d5
+          label: d5
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache
+          label: StateCache
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache\SceneView
+          label: SceneView
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -663,6 +796,42 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\New Terrain.asset
+        label: New Terrain.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\New Terrain.asset
+          fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+          projectPath: Assets\New Terrain.asset
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -680,6 +849,24 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Library\assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\assetDatabase3
+          fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library\gfu
         label: gfu
@@ -807,6 +994,60 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\metadata
+        label: metadata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\d5
+        label: d5
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+        label: d50ad8c3ae3cde14eb1f0588e81719aa.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+          fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+          projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
         label: shadercompiler-UnityShaderCompiler.exe0.log
         level: 1
@@ -825,9 +1066,9 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Temp
-        label: Temp
-        level: 0
+      - path: Library\StateCache
+        label: StateCache
+        level: 1
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -843,9 +1084,27 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Temp\UnityLockfile
-        label: UnityLockfile
-        level: 1
+      - path: Library\StateCache\Hierarchy
+        label: Hierarchy
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+        label: 66d156-mainStage.json
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -855,11 +1114,47 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityLockfile
-          fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityLockfile
-          projectPath: Temp\UnityLockfile
+          path: Library\StateCache\Hierarchy\66d156-mainStage.json
+          fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
           originalPath: 
-          status: 1
+          status: 3
+          staged: 0
+      - path: Library\StateCache\SceneView
+        label: SceneView
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+        label: 8bcf98-mainStage.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\StateCache\SceneView\8bcf98-mainStage.json
+          fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+          projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+          originalPath: 
+          status: 3
           staged: 0
       selectedNode:
         path: 
@@ -881,6 +1176,18 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
+    - path: Assets\New Terrain.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+      projectPath: Assets\New Terrain.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\gfu\cache\branches.yaml
       fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\branches.yaml
       projectPath: Library\gfu\cache\branches.yaml
@@ -911,27 +1218,39 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
       fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
       projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
       originalPath: 
       status: 3
       staged: 0
-    - path: Temp\UnityLockfile
-      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityLockfile
-      projectPath: Temp\UnityLockfile
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
       originalPath: 
-      status: 1
+      status: 3
       staged: 0
-    changedFilesText: 7 changed files
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    changedFilesText: 11 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-04-15T16:39:29.631+10:00
+      updatedTimeString: 2019-04-16T07:36:11.833+10:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-04-15T17:28:24.563+10:00
+      updatedTimeString: 2019-04-16T07:38:00.295+10:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2019-04-16T07:36:12.091+10:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -30852,13 +31171,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-04-15T16:39:29.631+10:00
+    updatedTimeString: 2019-04-15T18:10:12.767+10:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-04-15T17:28:24.595+10:00
+    updatedTimeString: 2019-04-15T22:47:21.010+10:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-04-15T17:28:24.563+10:00
+    updatedTimeString: 2019-04-15T23:33:55.147+10:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -30877,7 +31196,7 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -30955,20 +31274,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Materials
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\clint\Documents\GitHub\katabasis
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 960b0000
-    m_LastClickedID: 2966
-    m_ExpandedIDs: 00000000240a000000ca9a3b
+    m_SelectedIDs: fa260000
+    m_LastClickedID: 9978
+    m_ExpandedIDs: 00000000da26000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -30996,7 +31315,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000240a0000
+    m_ExpandedIDs: 00000000da260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -31024,7 +31343,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000782600007c26000000000000ae300000522700000c280000
+    m_ExpandedInstanceIDs: c6230000782600007c26000000000000ae300000522700000c280000a00b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -31096,8 +31415,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -31110,18 +31429,18 @@ MonoBehaviour:
       y: 17
       width: 1055
       height: 420
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 527.5, y: 210}
+    m_Scale: {x: 1.2298737, y: 1.2298737}
+    m_Translation: {x: 548.13446, y: 189.33583}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -527.5
-      y: -210
-      width: 1055
-      height: 420
+      x: -445.68356
+      y: -153.94739
+      width: 857.8117
+      height: 341.4985
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -31162,9 +31481,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 130.09375, y: 39.171875, z: 134.5625}
+    m_Target: {x: 72.875, y: 117.5625, z: 148.46875}
     speed: 2
-    m_Value: {x: 130.09375, y: 39.171875, z: 134.5625}
+    m_Value: {x: 72.875, y: 117.5625, z: 148.46875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -31192,13 +31511,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.10951406, y: 0.88910717, z: -0.28676724, w: 0.33954}
+    m_Target: {x: -0.17022876, y: -0.44361, z: 0.08623148, w: -0.8756706}
     speed: 2
-    m_Value: {x: 0.109512545, y: 0.8890949, z: -0.28676328, w: 0.3395353}
+    m_Value: {x: -0.17022854, y: -0.44360942, z: 0.086231366, w: -0.8756695}
   m_Size:
-    m_Target: 231.11462
+    m_Target: 343.7723
     speed: 2
-    m_Value: 231.11462
+    m_Value: 343.7723
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -31241,7 +31560,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4cfaffffd6fbffff
+      m_ExpandedIDs: ccfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

@@ -13,9 +13,346 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-15T17:16:41.512+10:00
-  initializedAtString: 2019-04-15T17:16:41.512+10:00
+  lastUpdatedAtString: 2019-04-15T22:01:19.527+10:00
+  initializedAtString: 2019-04-15T22:01:19.527+10:00
   log:
+  - commitID: e1fc897102e28562286ee7df4a33cf245263bd52
+    mergeA: 
+    mergeB: 
+    authorName: cliff-jam
+    authorEmail: cliff.jam.au@gmail.com
+    commitEmail: cliff.jam.au@gmail.com
+    commitName: cliff-jam
+    summary: update to terrain gen and gitignore
+    description: 
+    timeString: 2019-04-15T21:39:33.000+10:00
+    commitTimeString: 2019-04-15T21:39:33.000+10:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\New Terrain.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+      projectPath: Assets\New Terrain.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\NewLayer 1.terrainlayer
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\NewLayer
+        1.terrainlayer
+      projectPath: Assets\Sprites\NewLayer 1.terrainlayer
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\sandtexture.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\sandtexture.png.meta
+      projectPath: Assets\Sprites\sandtexture.png.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      projectPath: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptMapper
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\TerrainTools\PaintTexture
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\TerrainTools\PaintTexture
+      projectPath: Library\TerrainTools\PaintTexture
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp\UnityTempFile-05dde7b4bdcd88946a5f7376a3e80854
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-05dde7b4bdcd88946a5f7376a3e80854
+      projectPath: Temp\UnityTempFile-05dde7b4bdcd88946a5f7376a3e80854
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-125bac7c81249714d98a1e79ca9f2046
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-125bac7c81249714d98a1e79ca9f2046
+      projectPath: Temp\UnityTempFile-125bac7c81249714d98a1e79ca9f2046
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-15711afb99bfd4d4494eff2086bae2dc
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-15711afb99bfd4d4494eff2086bae2dc
+      projectPath: Temp\UnityTempFile-15711afb99bfd4d4494eff2086bae2dc
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-160fb88f5113b8b418da141986e1bb3c
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-160fb88f5113b8b418da141986e1bb3c
+      projectPath: Temp\UnityTempFile-160fb88f5113b8b418da141986e1bb3c
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-249867ce6292a1743bf009a51d1154ff
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-249867ce6292a1743bf009a51d1154ff
+      projectPath: Temp\UnityTempFile-249867ce6292a1743bf009a51d1154ff
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-31641fdf8add5234a80faf18cff3f2a6
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-31641fdf8add5234a80faf18cff3f2a6
+      projectPath: Temp\UnityTempFile-31641fdf8add5234a80faf18cff3f2a6
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-36ce20388a9ea6e48a98a9f94140dc33
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-36ce20388a9ea6e48a98a9f94140dc33
+      projectPath: Temp\UnityTempFile-36ce20388a9ea6e48a98a9f94140dc33
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-3765159de32580248bd53ae6fbda0196
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-3765159de32580248bd53ae6fbda0196
+      projectPath: Temp\UnityTempFile-3765159de32580248bd53ae6fbda0196
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-3f19d7a3b0b5f5a4e91a96de6ed1b9f9
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-3f19d7a3b0b5f5a4e91a96de6ed1b9f9
+      projectPath: Temp\UnityTempFile-3f19d7a3b0b5f5a4e91a96de6ed1b9f9
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-428f14f0c848c6e42a65b961dbc26b9f
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-428f14f0c848c6e42a65b961dbc26b9f
+      projectPath: Temp\UnityTempFile-428f14f0c848c6e42a65b961dbc26b9f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-478d9441864d926489c2fafb025de8a0
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-478d9441864d926489c2fafb025de8a0
+      projectPath: Temp\UnityTempFile-478d9441864d926489c2fafb025de8a0
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-51669070b6202774d98bc9267de92bf1
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-51669070b6202774d98bc9267de92bf1
+      projectPath: Temp\UnityTempFile-51669070b6202774d98bc9267de92bf1
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-5414f3753dd2f0e4fa2fa98c731b9ff9
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-5414f3753dd2f0e4fa2fa98c731b9ff9
+      projectPath: Temp\UnityTempFile-5414f3753dd2f0e4fa2fa98c731b9ff9
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-56330475b17a8e349b850ad2426aeef3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-56330475b17a8e349b850ad2426aeef3
+      projectPath: Temp\UnityTempFile-56330475b17a8e349b850ad2426aeef3
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-57c162c8b58c3af48a88f6486703e2ad
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-57c162c8b58c3af48a88f6486703e2ad
+      projectPath: Temp\UnityTempFile-57c162c8b58c3af48a88f6486703e2ad
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-5ed017890c33b7f4b91a60d1de7498f4
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-5ed017890c33b7f4b91a60d1de7498f4
+      projectPath: Temp\UnityTempFile-5ed017890c33b7f4b91a60d1de7498f4
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-6e3aaea0d940e864cb432466ab2c642c
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-6e3aaea0d940e864cb432466ab2c642c
+      projectPath: Temp\UnityTempFile-6e3aaea0d940e864cb432466ab2c642c
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-816d517ea10393443bb09163abe90ed8
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-816d517ea10393443bb09163abe90ed8
+      projectPath: Temp\UnityTempFile-816d517ea10393443bb09163abe90ed8
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-8b01e190e8351694cbe226b2d14a2446
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-8b01e190e8351694cbe226b2d14a2446
+      projectPath: Temp\UnityTempFile-8b01e190e8351694cbe226b2d14a2446
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-902e03d758ed0024cac13e56b3d48e04
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-902e03d758ed0024cac13e56b3d48e04
+      projectPath: Temp\UnityTempFile-902e03d758ed0024cac13e56b3d48e04
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-ae831d8f455628946a7e026f4dbcc8b1
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-ae831d8f455628946a7e026f4dbcc8b1
+      projectPath: Temp\UnityTempFile-ae831d8f455628946a7e026f4dbcc8b1
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-c00e67dc558ee8949a7073e7d99e9ee7
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-c00e67dc558ee8949a7073e7d99e9ee7
+      projectPath: Temp\UnityTempFile-c00e67dc558ee8949a7073e7d99e9ee7
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-cbe532f01abf8a54eb639b751da35f0f
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-cbe532f01abf8a54eb639b751da35f0f
+      projectPath: Temp\UnityTempFile-cbe532f01abf8a54eb639b751da35f0f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-d37527b051c2c5945be4737239c97023
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-d37527b051c2c5945be4737239c97023
+      projectPath: Temp\UnityTempFile-d37527b051c2c5945be4737239c97023
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-dc6bf63214522a8479ee38aa7f9227ac
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-dc6bf63214522a8479ee38aa7f9227ac
+      projectPath: Temp\UnityTempFile-dc6bf63214522a8479ee38aa7f9227ac
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-f061b5400b70a004e9ecceab6b9e5105
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-f061b5400b70a004e9ecceab6b9e5105
+      projectPath: Temp\UnityTempFile-f061b5400b70a004e9ecceab6b9e5105
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-ff84a71758bee1a4c8da6108266e5d64
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\UnityTempFile-ff84a71758bee1a4c8da6108266e5d64
+      projectPath: Temp\UnityTempFile-ff84a71758bee1a4c8da6108266e5d64
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: katabasis.sln
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\katabasis.sln
+      projectPath: katabasis.sln
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 12ec9c9d78399e55b01c2ce93a30c7e2c15f0c2b
     mergeA: 
     mergeB: 
