@@ -8,7 +8,7 @@ public class PerlinTerrainGenerator : MonoBehaviour
     public float scale = 5f;
     public float seed;
 
-    void Start()
+    void Awake()
     {
         seed = Random.Range(0f, 10000f);
         Terrain terrain = GetComponent<Terrain>();
