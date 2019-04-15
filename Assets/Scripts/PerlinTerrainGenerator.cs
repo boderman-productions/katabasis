@@ -3,9 +3,9 @@
 public class PerlinTerrainGenerator : MonoBehaviour
 {
     public int width = 256;
-    public int height = 256;
-    public int depth = 10;
-    public float scale = 10f;
+    public int length = 256;
+    public int depth = 20;
+    public float scale = 5f;
     public float seed;
 
     void Start()
@@ -18,26 +18,26 @@ public class PerlinTerrainGenerator : MonoBehaviour
     TerrainData GenerateTerrain(TerrainData terrainData)
     {
         terrainData.heightmapResolution = width + 1;
-        terrainData.size = new Vector3(width, depth, height);
+        terrainData.size = new Vector3(width, depth, length);
         terrainData.SetHeights(0, 0, GenerateHeights());
         return terrainData;
     }
 
     float[,] GenerateHeights ()
     {
-        float[,] heights = new float[width, height]; //grid of points
+        float[,] lengths = new float[width, length]; //grid of points
         for (int x = 0; x < width; x++) {
-            for (int y = 0; y < height; y++) {
-                heights[x, y] = CalculateHeight(x, y); //calculates height at the iterated x and y coord
+            for (int y = 0; y < length; y++) {
+                lengths[x, y] = CalculateHeight(x, y); //calculates height at the iterated x and y coord
             }
         }
-        return heights;
+        return lengths;
     }
 
     float CalculateHeight (int x, int y) //converts coords into noisemap coords
     {
         float xCoord = (float)x / width * scale;
-        float yCoord = (float)y / height * scale;
+        float yCoord = (float)y / length * scale;
 
         return Mathf.PerlinNoise(xCoord + seed, yCoord + seed); //returns perlin noise at noisemap coords
     }
