@@ -56,13 +56,15 @@
      <Compile Include="Assets\Scripts\charMovement.cs" />
      <Compile Include="Assets\Scripts\FaceCamera.cs" />
      <Compile Include="Assets\Scripts\gManager.cs" />
-     <Compile Include="Assets\Scripts\MapGenerator.cs" />
      <Compile Include="Assets\Scripts\movement.cs" />
-     <Compile Include="Assets\Scripts\PerlinTerrainGenerator.cs" />
      <Compile Include="Assets\Scripts\tempFPS\fpsMovement.cs" />
      <Compile Include="Assets\Scripts\tempFPS\MouseCamLook.cs" />
-     <Compile Include="Assets\Scripts\TextureHeightmap.cs" />
+     <Compile Include="Assets\Scripts\Terrain\MapGenerator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\PerlinTerrainGenerator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\TextureHeightmap.cs" />
      <Compile Include="Assets\Scripts\tpCamera.cs" />
+     <Compile Include="Assets\Scripts\Weather\RainParticle.cs" />
+     <Compile Include="Assets\Scripts\Weather\WeatherSystem.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/clint/Documents/GitHub/katabasis/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -77,6 +79,12 @@
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>C:/Users/clint/Documents/GitHub/katabasis/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/clint/Documents/GitHub/katabasis/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/clint/Documents/GitHub/katabasis/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
