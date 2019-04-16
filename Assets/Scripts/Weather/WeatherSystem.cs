@@ -11,8 +11,8 @@ public class WeatherSystem : MonoBehaviour
 
     public GameObject Rain;
     public Vector3 terrainCoord;
-    public int rainX;
-    public int rainY;
+    private int rainX;
+    private int rainY;
 
     void Start()
     {

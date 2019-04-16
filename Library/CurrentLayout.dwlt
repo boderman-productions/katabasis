@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 524}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 0
     width: 1057
     height: 457
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 122
+  controlID: 126
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,10 +142,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+  m_MinSize: {x: 713, y: 474}
+  m_MaxSize: {x: 18008, y: 14024}
   vertical: 0
-  controlID: 12
+  controlID: 41
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 457
     width: 1057
     height: 490
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -214,10 +214,10 @@ MonoBehaviour:
     y: 0
     width: 410
     height: 947
-  m_MinSize: {x: 234, y: 498}
-  m_MaxSize: {x: 10004, y: 14048}
+  m_MinSize: {x: 234, y: 474}
+  m_MaxSize: {x: 10004, y: 14024}
   vertical: 1
-  controlID: 13
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 410
     height: 415
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -1244,13 +1244,13 @@ MonoBehaviour:
       staged: 0
     changedFilesText: 11 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-04-16T07:38:47.732+10:00
+      updatedTimeString: 2019-04-16T12:49:29.386+10:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-04-16T09:12:10.365+10:00
+      updatedTimeString: 2019-04-16T14:18:43.380+10:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2019-04-16T14:18:42.407+10:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -31285,9 +31285,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06280000
-    m_LastClickedID: 10246
-    m_ExpandedIDs: 0000000004270000a627000000ca9a3b
+    m_SelectedIDs: 3a0b0000
+    m_LastClickedID: 2874
+    m_ExpandedIDs: 00000000280a0000d60a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -31315,7 +31315,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000004270000
+    m_ExpandedIDs: 00000000280a0000d60a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -31342,19 +31342,19 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000782600007c26000000000000ae300000522700000c280000a00b000070280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: MapGenerator
-      m_OriginalName: MapGenerator
+      m_Name: TextureHeightmap
+      m_OriginalName: TextureHeightmap
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2062
+      m_UserData: 1904
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -31429,18 +31429,18 @@ MonoBehaviour:
       y: 17
       width: 1055
       height: 420
-    m_Scale: {x: 1.2298737, y: 1.2298737}
-    m_Translation: {x: 548.13446, y: 189.33583}
+    m_Scale: {x: 1.0561345, y: 1.0561345}
+    m_Translation: {x: 557.1109, y: 198.21176}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -445.68356
-      y: -153.94739
-      width: 857.8117
-      height: 341.4985
+      x: -527.5
+      y: -187.67664
+      width: 998.92584
+      height: 397.67664
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -31481,9 +31481,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 495.5, y: 281.59375, z: -42.40625}
+    m_Target: {x: 76.625, y: -83.71875, z: 473.75}
     speed: 2
-    m_Value: {x: 495.5, y: 281.59375, z: -42.40625}
+    m_Value: {x: 76.625, y: -83.71875, z: 473.75}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -31511,13 +31511,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.25899154, y: 0.3837582, z: -0.113066636, w: -0.8791306}
+    m_Target: {x: -0.19578731, y: 0.2757946, z: -0.057497416, w: -0.93930763}
     speed: 2
-    m_Value: {x: -0.25899133, y: 0.38375786, z: -0.11306654, w: -0.8791299}
+    m_Value: {x: -0.19578731, y: 0.2757946, z: -0.057497416, w: -0.93930763}
   m_Size:
-    m_Target: 387.67484
+    m_Target: 516.0981
     speed: 2
-    m_Value: 387.67484
+    m_Value: 516.0981
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -31558,20 +31558,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ce290000
-      m_LastClickedID: 10702
-      m_ExpandedIDs: b0fbffff
+      m_SelectedIDs: 300a0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: cebf7affd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Land
-        m_OriginalName: Land
+        m_Name: BaseTerrain
+        m_OriginalName: BaseTerrain
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1256
+        m_UserData: 3334
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0

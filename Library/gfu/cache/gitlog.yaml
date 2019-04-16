@@ -13,9 +13,171 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-16T09:05:05.952+10:00
-  initializedAtString: 2019-04-16T09:05:05.952+10:00
+  lastUpdatedAtString: 2019-04-16T13:42:49.260+10:00
+  initializedAtString: 2019-04-16T13:42:49.207+10:00
   log:
+  - commitID: 79b28e9acdd61167bea7a4027e5ecbcf1f22dcda
+    mergeA: 
+    mergeB: 
+    authorName: cliff-jam
+    authorEmail: cliff.jam.au@gmail.com
+    commitEmail: cliff.jam.au@gmail.com
+    commitName: cliff-jam
+    summary: Better rain gen
+    description: 
+    timeString: 2019-04-16T13:42:26.000+10:00
+    commitTimeString: 2019-04-16T13:42:26.000+10:00
+    changes:
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\New Terrain.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+      projectPath: Assets\New Terrain.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Rain.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Rain.prefab
+      projectPath: Assets\Prefabs\Rain.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Weather\RainParticle.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\RainParticle.cs
+      projectPath: Assets\Scripts\Weather\RainParticle.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Weather\RainParticle.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\RainParticle.cs.meta
+      projectPath: Assets\Scripts\Weather\RainParticle.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Weather\WeatherSystem.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs
+      projectPath: Assets\Scripts\Weather\WeatherSystem.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      projectPath: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 75fe2898f3d586ffa93997e373e6a1c44cb23823
     mergeA: 
     mergeB: 
