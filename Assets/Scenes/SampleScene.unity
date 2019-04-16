@@ -412,7 +412,7 @@ MonoBehaviour:
     startingHeight: 5
     endingHeight: 1000
   - textureIndex: 1
-    startingHeight: 3
+    startingHeight: 0
     endingHeight: 5
 --- !u!114 &1250779869
 MonoBehaviour:
@@ -438,6 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1680524387}
   - component: {fileID: 1680524386}
+  - component: {fileID: 1680524388}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -483,7 +484,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9665eb69e4564c840bc4e1b16f8dbd63, type: 3}
-  m_Color: {r: 0.804, g: 0.804, b: 1, a: 0.32941177}
+  m_Color: {r: 0.825, g: 0.825, b: 1, a: 0.3137255}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -501,12 +502,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680524385}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 256, y: 3.4, z: 256}
+  m_LocalPosition: {x: 256, y: -0.1, z: 256}
   m_LocalScale: {x: 512, y: 512, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1680524388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680524385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888948f8f638cf14487007be0912da5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3505687366945043378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -582,6 +595,11 @@ PrefabInstance:
     - target: {fileID: 3188844500465824355, guid: 56813250020e5314cae4692506badc81,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188844500465824355, guid: 56813250020e5314cae4692506badc81,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9131074698159167377, guid: 56813250020e5314cae4692506badc81,
@@ -597,6 +615,11 @@ PrefabInstance:
     - target: {fileID: 6475741607947066082, guid: 56813250020e5314cae4692506badc81,
         type: 3}
       propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475741607947066082, guid: 56813250020e5314cae4692506badc81,
+        type: 3}
+      propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -700,3 +723,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rainSpeed: 3
+--- !u!114 &8075825211284965477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8075825211284965472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc413d132cfa5584787a0af822bdd1e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 534669904}
