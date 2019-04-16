@@ -31,5 +31,11 @@ public class WeatherSystem : MonoBehaviour
         rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
         rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
         Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
+        rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
+        rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
+        Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
+        rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
+        rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
+        Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
     }
 }
