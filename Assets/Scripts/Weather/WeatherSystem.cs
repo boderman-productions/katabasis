@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class WeatherSystem : MonoBehaviour
 {
@@ -7,37 +8,27 @@ public class WeatherSystem : MonoBehaviour
     public static float maxWaterLevel;
     public static bool raining;
     public GameObject Rain;
-    public Vector3 terrainCoord;
-    private int rainX;
-    private int rainY;
+    public float rainInterval; //how often rain falls
+    public float rainVariation;
 
     void Start()
     {
+        StartCoroutine(TimedUpdateRoutine());
         minWaterLevel = 1f;
         maxWaterLevel = 15f;
         raining = true;
-        Vector3 terrainCoord = GameObject.Find("BaseTerrain").GetComponent<Terrain>().terrainData.size; //gets the dimensions of the base terrain layer to ensure nothing falls outside
     }
 
     void Update()
     {
-        if (raining = true) //standard rain
+    }
+
+    IEnumerator TimedUpdateRoutine()
+    {
+        while (true)
         {
-            rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
-            rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
-            Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
-            rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
-            rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
-            Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
-            rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
-            rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
-            Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
-            rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
-            rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
-            Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
-            rainX = Random.Range(0, PerlinTerrainGenerator.terrainWidth);
-            rainY = Random.Range(0, PerlinTerrainGenerator.terrainLength);
-            Instantiate(Rain, new Vector3(rainX, 100, rainY), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
+            yield return new WaitForSeconds(rainInterval);
+            Instantiate(Rain, new Vector3(transform.position.x + Random.Range(-rainVariation, rainVariation), 100 + Random.Range(-rainVariation , rainVariation *20), transform.position.z + Random.Range(-rainVariation, rainVariation)), Quaternion.identity); //instantiates random droplet at random coordinates above terrain map
         }
     }
 }

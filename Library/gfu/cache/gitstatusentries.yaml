@@ -13,9 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-04-17T08:37:24.650+10:00
-  initializedAtString: 2019-04-17T07:16:54.804+10:00
+  lastUpdatedAtString: 2019-04-18T13:10:29.343+10:00
+  initializedAtString: 2019-04-18T12:18:47.643+10:00
   entries:
+  - path: .vs\katabasis\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Assembly-CSharp.csproj
     fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
@@ -28,35 +46,89 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Materials\SandLayer.terrainlayer
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\SandLayer.terrainlayer
-    projectPath: Assets\Materials\SandLayer.terrainlayer
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\New Terrain.asset
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
-    projectPath: Assets\New Terrain.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\Weather\WaterLevel.cs
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WaterLevel.cs
-    projectPath: Assets\Scripts\Weather\WaterLevel.cs
+  - path: Assets\Prefabs\Plane.prefab
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Plane.prefab
+    projectPath: Assets\Prefabs\Plane.prefab
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scripts\Weather\WaterLevel.cs.meta
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WaterLevel.cs.meta
-    projectPath: Assets\Scripts\Weather\WaterLevel.cs.meta
+  - path: Assets\Prefabs\Plane.prefab.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Plane.prefab.meta
+    projectPath: Assets\Prefabs\Plane.prefab.meta
     originalPath: 
     status: 1
+    staged: 0
+  - path: Assets\Scenes\MeshTerrainTest.unity
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\MeshTerrainTest.unity
+    projectPath: Assets\Scenes\MeshTerrainTest.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\MeshTerrainTest.unity.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\MeshTerrainTest.unity.meta
+    projectPath: Assets\Scenes\MeshTerrainTest.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest.meta
+    projectPath: Assets\Scripts\MeshTest.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest\LevelGeneration.cs
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\LevelGeneration.cs
+    projectPath: Assets\Scripts\MeshTest\LevelGeneration.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+    projectPath: Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+    projectPath: Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+    projectPath: Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest\TileGeneration.cs
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\TileGeneration.cs
+    projectPath: Assets\Scripts\MeshTest\TileGeneration.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\MeshTest\TileGeneration.cs.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\TileGeneration.cs.meta
+    projectPath: Assets\Scripts\MeshTest\TileGeneration.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\NewLayer.terrainlayer
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\NewLayer.terrainlayer
+    projectPath: Assets\Scripts\NewLayer.terrainlayer
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Scripts\NewLayer.terrainlayer.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\NewLayer.terrainlayer.meta
+    projectPath: Assets\Scripts\NewLayer.terrainlayer.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Scripts\Weather\RainParticle.cs
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\RainParticle.cs
+    projectPath: Assets\Scripts\Weather\RainParticle.cs
+    originalPath: 
+    status: 3
     staged: 0
   - path: Assets\Scripts\Weather\WeatherSystem.cs
     fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs
@@ -64,27 +136,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Sprites\sandtexture.png
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\sandtexture.png
-    projectPath: Assets\Sprites\sandtexture.png
+  - path: Assets\Scripts\Weather\WeatherSystem.cs.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs.meta
+    projectPath: Assets\Scripts\Weather\WeatherSystem.cs.meta
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Sprites\sandtexture.png.meta
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\sandtexture.png.meta
-    projectPath: Assets\Sprites\sandtexture.png.meta
+  - path: Assets\Sprites\noisematerial.png
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\noisematerial.png
+    projectPath: Assets\Sprites\noisematerial.png
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Assets\Sprites\seatexture.png
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\seatexture.png
-    projectPath: Assets\Sprites\seatexture.png
+  - path: Assets\Sprites\noisematerial.png.meta
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\noisematerial.png.meta
+    projectPath: Assets\Sprites\noisematerial.png.meta
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Assets\Sprites\spritemap.png
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\spritemap.png
-    projectPath: Assets\Sprites\spritemap.png
+  - path: katabasis.sln
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\katabasis.sln
+    projectPath: katabasis.sln
     originalPath: 
     status: 3
     staged: 0
@@ -106,21 +178,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -154,30 +214,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\67\67ea28f796c99cc449c22f4f01d70662
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\67\67ea28f796c99cc449c22f4f01d70662
-    projectPath: Library\metadata\67\67ea28f796c99cc449c22f4f01d70662
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63
-    projectPath: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63.info
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63.info
-    projectPath: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
-    projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -187,6 +223,42 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
     fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
     originalPath: 
     status: 3
     staged: 0
@@ -208,15 +280,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\TerrainTools\PaintTexture
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\TerrainTools\PaintTexture
-    projectPath: Library\TerrainTools\PaintTexture
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     status: 3
     staged: 0
-  - path: ProjectSettings\ProBuilderSettings.json
-    fullPath: C:\Users\clint\Documents\GitHub\katabasis\ProjectSettings\ProBuilderSettings.json
-    projectPath: ProjectSettings\ProBuilderSettings.json
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     originalPath: 
     status: 3
     staged: 0

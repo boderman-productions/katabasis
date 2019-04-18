@@ -4,7 +4,7 @@ using System.Collections;
 public class RainParticle : MonoBehaviour
 {
     [SerializeField]
-    public int rainSpeed;
+    private int rainSpeed;
 
     void Start()
     {
