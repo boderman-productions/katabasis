@@ -60,22 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameHandler.cs" />
     <Compile Include="Assets\Scripts\charMovement.cs" />
     <Compile Include="Assets\Scripts\FaceCamera.cs" />
     <Compile Include="Assets\Scripts\gManager.cs" />
-    <Compile Include="Assets\Scripts\MeshTest\LevelGeneration.cs" />
-    <Compile Include="Assets\Scripts\MeshTest\NoiseMapGeneration.cs" />
-    <Compile Include="Assets\Scripts\MeshTest\TileGeneration.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\tempFPS\fpsMovement.cs" />
     <Compile Include="Assets\Scripts\tempFPS\MouseCamLook.cs" />
-    <Compile Include="Assets\Scripts\Terrain\MapGenerator.cs" />
-    <Compile Include="Assets\Scripts\Terrain\PerlinTerrainGenerator.cs" />
-    <Compile Include="Assets\Scripts\Terrain\TextureHeightmap.cs" />
+    <Compile Include="Assets\Scripts\Terrain\GridGen.cs" />
     <Compile Include="Assets\Scripts\tpCamera.cs" />
-    <Compile Include="Assets\Scripts\Weather\RainParticle.cs" />
-    <Compile Include="Assets\Scripts\Weather\WaterLevel.cs" />
-    <Compile Include="Assets\Scripts\Weather\WeatherSystem.cs" />
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>C:/Users/clint/Documents/GitHub/katabasis/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>

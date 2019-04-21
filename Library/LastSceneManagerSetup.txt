@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MeshTerrainTest.unity
+- path: Assets/TriangleTest/TriangleTerrain.unity
   isLoaded: 1
   isActive: 1
