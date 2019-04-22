@@ -9,16 +9,38 @@ public class GridGen : MonoBehaviour
     public int[] triangles;
     public int meshLength; //y value of mesh plane
     public int meshWidth; //x value of mesh plane
+    public int maxHeight;
+    public int scale;
 
     void Start()
     {
+        //noisemap
+        // create an empty noise map with the mapDepth and mapWidth coordinates
+        float[,] noiseMap = new float[1000,1000];
+
+        for (int zIndex = 0; zIndex < meshLength; zIndex++)
+        {
+            for (int xIndex = 0; xIndex < meshWidth; xIndex++)
+            {
+                // calculate sample indices based on the coordinates and the scale
+                float sampleX = (float)xIndex / scale;
+                float sampleZ = (float)zIndex / scale;
+
+                // generate noise value using PerlinNoise
+                float noise = Mathf.PerlinNoise(sampleX, sampleZ);
+
+                noiseMap[zIndex, xIndex] = noise;
+                Debug.Log(noiseMap[xIndex, zIndex]);
+            }
+        }
+
         //vertices
         Vector3[] vertices = new Vector3[(meshWidth + 1) * (meshLength + 1)]; //individual points of triangles
         for (int i = 0, y = 0; y <= meshLength; y++)
         {
             for (int x = 0; x <= meshWidth; x++, i++)
             {
-                vertices[i] = new Vector3(x, Random.Range(0f,2f), y);
+                vertices[i] = new Vector3(x, noiseMap[x, y] * maxHeight + Random.Range(0f,0.33f), y);
             }
         }
 
@@ -54,17 +76,21 @@ public class GridGen : MonoBehaviour
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
 
-        GameObject gameObject = new GameObject("Mesh", typeof(MeshFilter), typeof(MeshRenderer)); //creates gameobject for mesh, allowing for easy addition/subtraction of components
-        gameObject.transform.localScale = new Vector3(5, 1, 5); //sets scale of mesh
+        //creates gameobject for mesh, allowing for easy addition/subtraction of components
+        GameObject gameObject = new GameObject("Mesh", typeof(MeshFilter), typeof(MeshRenderer)); 
+        gameObject.transform.localScale = new Vector3(10, 10, 10); //sets scale of mesh
         gameObject.GetComponent<MeshFilter>().mesh = mesh;
         gameObject.AddComponent<MeshCollider>();
         gameObject.GetComponent<MeshRenderer>().material = material;
-        gameObject.GetComponent<Renderer>().receiveShadows = false; //disables shadows
+        gameObject.GetComponent<Renderer>().receiveShadows = true; //disables or enables shadows
 
         //applies semi-determined colors to triangles
-        Color[] colors = new Color[vertices.Length]; 
+        Color[] colors = new Color[vertices.Length];
         for (int i = 0; i < vertices.Length; i++)
-            colors[i] = new Color(Random.Range(0f, 0.05f) + vertices[i].y/8, 0.5f + vertices[i].y / 10, Random.Range(0f, 0.05f) + vertices[i].y / 10); //should give a snotty green
+            colors[i] = new Color(
+                vertices[i].y / 33 + Random.Range(0f, 0.05f),
+                0.33f + vertices[i].y / 33,
+                vertices[i].y / 33 + Random.Range(0f, 0.05f)); 
         mesh.colors = colors;
     }
 }

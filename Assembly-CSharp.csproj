@@ -69,6 +69,12 @@
     <Compile Include="Assets\Scripts\tempFPS\MouseCamLook.cs" />
     <Compile Include="Assets\Scripts\Terrain\GridGen.cs" />
     <Compile Include="Assets\Scripts\tpCamera.cs" />
+    <None Include="Assets\Minimalist v2.3\Shaders\Minimalist Sky.shader" />
+    <None Include="Assets\Minimalist v2.3\Documentation\Readme.txt" />
+    <None Include="Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace LWRP.shader" />
+    <None Include="Assets\Minimalist v2.3\Shaders\Minimalist Standard LWRP.shader" />
+    <None Include="Assets\Minimalist v2.3\Shaders\Minimalist Standard.shader" />
+    <None Include="Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace.shader" />
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>C:/Users/clint/Documents/GitHub/katabasis/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
