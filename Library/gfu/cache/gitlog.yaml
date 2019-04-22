@@ -13,9 +13,2515 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-16T14:44:49.027+10:00
-  initializedAtString: 2019-04-16T14:44:48.980+10:00
+  lastUpdatedAtString: 2019-04-22T10:34:38.246+10:00
+  initializedAtString: 2019-04-22T10:34:38.128+10:00
   log:
+  - commitID: 3ef5f112a9d810390027dd09702bcc292961e5ee
+    mergeA: 
+    mergeB: 
+    authorName: cliff-jam
+    authorEmail: cliff.jam.au@gmail.com
+    commitEmail: cliff.jam.au@gmail.com
+    commitName: cliff-jam
+    summary: Terrain gen changes + new minimalist shaders
+    description: 
+    timeString: 2019-04-22T10:34:21.000+10:00
+    commitTimeString: 2019-04-22T10:34:21.000+10:00
+    changes:
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Editor Default Resources.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Editor Default Resources.meta
+      projectPath: Assets\Editor Default Resources.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Editor Default Resources\MinimalistClipboard.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Editor Default Resources\MinimalistClipboard.asset
+      projectPath: Assets\Editor Default Resources\MinimalistClipboard.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Editor Default Resources\MinimalistClipboard.asset.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Editor Default Resources\MinimalistClipboard.asset.meta
+      projectPath: Assets\Editor Default Resources\MinimalistClipboard.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\TransparentMaterial.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\TransparentMaterial.mat
+      projectPath: Assets\Materials\TransparentMaterial.mat
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Materials\WhiteMaterial.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\WhiteMaterial.mat
+      projectPath: Assets\Materials\WhiteMaterial.mat
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Minimalist v2.3.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3.meta
+      projectPath: Assets\Minimalist v2.3.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos.meta
+      projectPath: Assets\Minimalist v2.3\Demos.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\CloudTexture.jpg
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\CloudTexture.jpg
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\CloudTexture.jpg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\CloudTexture.jpg.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\CloudTexture.jpg.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\CloudTexture.jpg.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Inner cube 1.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Inner
+        cube 1.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Inner cube
+        1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Inner cube 1.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Inner
+        cube 1.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Inner cube
+        1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Material.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Material.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Material.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Material.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Material.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Material.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\No Name.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\No
+        Name.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\No Name.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\No Name.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\No
+        Name.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\No Name.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Outer cube 1.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Outer
+        cube 1.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Outer cube
+        1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Outer cube 1.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Outer
+        cube 1.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Outer cube
+        1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Sky 1.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Sky
+        1.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Sky 1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Sky 1.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Sky
+        1.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AbstractBoxDemo\Materials\Sky 1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building2.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building2.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building2.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building2.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building2.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Building2.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\CaveRock.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\CaveRock.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\CaveRock.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\CaveRock.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\CaveRock.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\CaveRock.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Flag.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Flag.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Flag.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Flag.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Flag.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Flag.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\FloatingRock.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\FloatingRock.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\FloatingRock.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\FloatingRock.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\FloatingRock.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\FloatingRock.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Grassy.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Grassy.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Grassy.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Grassy.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Grassy.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Grassy.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock1.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock1.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock1.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock1.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock2.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock2.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock2.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock2.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock2.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock2.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.001.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.001.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.001.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.001.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.001.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.001.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\IslandRock3.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock1.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock1.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock1.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock1.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock1.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock1.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock2.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock2.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock2.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock2.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock2.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock2.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock3.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock3.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock3.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock3.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock3.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\MountainRock3.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\No Name.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\No
+        Name.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\No
+        Name.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\No Name.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\No
+        Name.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\No
+        Name.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Quad.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Quad.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Quad.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Quad.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Quad.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Quad.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\RockyPathway.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\RockyPathway.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\RockyPathway.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\RockyPathway.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\RockyPathway.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\RockyPathway.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Sky.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Sky.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Sky.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Sky.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Sky.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Sky.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Tomb.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Tomb.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Tomb.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Tomb.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Tomb.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Tomb.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Water.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Water.mat
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Water.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Water.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Water.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Model\Materials\Water.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh CaveRock.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh CaveRock.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh CaveRock.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh CaveRock.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh CaveRock.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh CaveRock.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh FloatingRock.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh FloatingRock.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh FloatingRock.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh FloatingRock.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh FloatingRock.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh FloatingRock.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh Grassy.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Grassy.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Grassy.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh Grassy.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Grassy.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Grassy.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock1.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock1.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock1.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock1.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock2.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock2.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock2.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock2.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock3.001.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.001.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.001.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock3.001.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.001.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.001.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock3.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh IslandRock3.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh IslandRock3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh MountainRock1.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock1.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh MountainRock1.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock1.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh MountainRock2.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock2.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh MountainRock2.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock2.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh MountainRock3.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock3.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh MountainRock3.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock3.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh MountainRock3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh Water.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Water.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Water.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient Occlusion
+        Map from Mesh Water.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Water.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\Ambient
+        Occlusion Map from Mesh Water.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\UIOverlap.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\UIOverlap.png
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\UIOverlap.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\UIOverlap.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\UIOverlap.png.meta
+      projectPath: Assets\Minimalist v2.3\Demos\AnotherIslandDemo\Textures\UIOverlap.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\New Material.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\New
+        Material.mat
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\New Material.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\New Material.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\New
+        Material.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\New Material.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\No Name.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\No
+        Name.mat
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\No Name.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\No Name.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\No
+        Name.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\No Name.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Stone.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Stone.mat
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Stone.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Stone.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Stone.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Stone.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Tower.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Tower.mat
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Tower.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Tower.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Tower.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\Tower.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\sky.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\sky.mat
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\sky.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\sky.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\CastleDemo\Materials\sky.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\CastleDemo\Materials\sky.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Blue.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Blue.mat
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Blue.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Blue.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Blue.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Blue.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\No Name.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\No
+        Name.mat
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\No
+        Name.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\No Name.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\No
+        Name.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\No
+        Name.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Yellow.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Yellow.mat
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Yellow.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Yellow.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Yellow.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\Yellow.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\sky.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\sky.mat
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\sky.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\sky.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\sky.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\IsometricCasualGameDemo\Materials\sky.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background rocks.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background
+        rocks.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background
+        rocks.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background rocks.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background
+        rocks.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background
+        rocks.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Background.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Bolts.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Bolts.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Bolts.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Bolts.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Bolts.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Bolts.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Floor.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Floor.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Floor.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Floor.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Floor.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Floor.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Main Rocks.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Main
+        Rocks.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Main Rocks.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Main Rocks.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Main
+        Rocks.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\Main Rocks.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\sky.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\sky.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\sky.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\sky.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\sky.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LaraCroftGoDemo\Materials\sky.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Building.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Building.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Building.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Building.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Building.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Building.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Leaves.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Leaves.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Leaves.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Leaves.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Leaves.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Leaves.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Sky.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Sky.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Sky.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Sky.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Sky.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Sky.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Trunk.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Trunk.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Trunk.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Trunk.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Trunk.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LittleCastleIslandDemo\Materials\Trunk.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\Global.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\Global.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\Global.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\Global.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\Global.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\Global.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\GlobalSpace.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\GlobalSpace.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\GlobalSpace.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\GlobalSpace.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\GlobalSpace.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\GlobalSpace.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\LocalSpace.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\LocalSpace.mat
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\LocalSpace.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\LocalSpace.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\LocalSpace.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\LocalSpaceGlobalSpaceGradientDemo\Materials\LocalSpace.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Flower.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Flower.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Flower.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Flower.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Flower.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Flower.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Grass.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Grass.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Grass.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Grass.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Grass.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Grass.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material.001.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material.001.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material.001.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material.001.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material.001.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material.001.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material2.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material2.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material2.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material2.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material2.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Material2.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Tree.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Tree.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Tree.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Tree.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Tree.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\Tree.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yello.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yello.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yello.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yello.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yello.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yello.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yellow.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yellow.mat
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yellow.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yellow.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yellow.mat.meta
+      projectPath: Assets\Minimalist v2.3\Demos\MonumentValleyDemo\Materials\yellow.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Documentation.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Documentation.meta
+      projectPath: Assets\Minimalist v2.3\Documentation.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Documentation\MinimalistDocumentation.pdf
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Documentation\MinimalistDocumentation.pdf
+      projectPath: Assets\Minimalist v2.3\Documentation\MinimalistDocumentation.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Documentation\MinimalistDocumentation.pdf.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Documentation\MinimalistDocumentation.pdf.meta
+      projectPath: Assets\Minimalist v2.3\Documentation\MinimalistDocumentation.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Documentation\Readme.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Documentation\Readme.txt
+      projectPath: Assets\Minimalist v2.3\Documentation\Readme.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Documentation\Readme.txt.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Documentation\Readme.txt.meta
+      projectPath: Assets\Minimalist v2.3\Documentation\Readme.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor.meta
+      projectPath: Assets\Minimalist v2.3\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\EditorGUILayoutExtended.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\EditorGUILayoutExtended.cs
+      projectPath: Assets\Minimalist v2.3\Editor\EditorGUILayoutExtended.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\EditorGUILayoutExtended.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\EditorGUILayoutExtended.cs.meta
+      projectPath: Assets\Minimalist v2.3\Editor\EditorGUILayoutExtended.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\MinimalistClipboard.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\MinimalistClipboard.cs
+      projectPath: Assets\Minimalist v2.3\Editor\MinimalistClipboard.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\MinimalistClipboard.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\MinimalistClipboard.cs.meta
+      projectPath: Assets\Minimalist v2.3\Editor\MinimalistClipboard.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\MinimalistSkyEditor.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\MinimalistSkyEditor.cs
+      projectPath: Assets\Minimalist v2.3\Editor\MinimalistSkyEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\MinimalistSkyEditor.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\MinimalistSkyEditor.cs.meta
+      projectPath: Assets\Minimalist v2.3\Editor\MinimalistSkyEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\MinimalistStandardEditor.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\MinimalistStandardEditor.cs
+      projectPath: Assets\Minimalist v2.3\Editor\MinimalistStandardEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Editor\MinimalistStandardEditor.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Editor\MinimalistStandardEditor.cs.meta
+      projectPath: Assets\Minimalist v2.3\Editor\MinimalistStandardEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders.meta
+      projectPath: Assets\Minimalist v2.3\Shaders.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Sky.shader
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Sky.shader
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Sky.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Sky.shader.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Sky.shader.meta
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Sky.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard LWRP.shader
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard LWRP.shader
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard LWRP.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard LWRP.shader.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard LWRP.shader.meta
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard LWRP.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace LWRP.shader
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard LocalSpace LWRP.shader
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace LWRP.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace LWRP.shader.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard LocalSpace LWRP.shader.meta
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace LWRP.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace.shader
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard LocalSpace.shader
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace.shader.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard LocalSpace.shader.meta
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard LocalSpace.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard.shader
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard.shader
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Minimalist v2.3\Shaders\Minimalist Standard.shader.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Minimalist v2.3\Shaders\Minimalist
+        Standard.shader.meta
+      projectPath: Assets\Minimalist v2.3\Shaders\Minimalist Standard.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\ClintScene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\ClintScene.unity
+      projectPath: Assets\Scenes\ClintScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Terrain\GridGen.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\GridGen.cs
+      projectPath: Assets\Scripts\Terrain\GridGen.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      projectPath: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptMapper
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: katabasis.sln
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\katabasis.sln
+      projectPath: katabasis.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: a3e441986f79a074a0eb111aeb4284c2a27fa29c
+    mergeA: 
+    mergeB: 
+    authorName: cliff-jam
+    authorEmail: cliff.jam.au@gmail.com
+    commitEmail: cliff.jam.au@gmail.com
+    commitName: cliff-jam
+    summary: New terrain + removing old prefabs and scripts
+    description: 
+    timeString: 2019-04-21T23:33:13.000+10:00
+    commitTimeString: 2019-04-21T23:33:13.000+10:00
+    changes:
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\GameHandler.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\GameHandler.cs
+      projectPath: Assets\GameHandler.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameHandler.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\GameHandler.cs.meta
+      projectPath: Assets\GameHandler.cs.meta
+      originalPath: Assets\Scripts\Terrain\TextureHeightmap.cs.meta
+      status: 6
+      staged: 0
+    - path: Assets\Material.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Material.mat
+      projectPath: Assets\Material.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Material.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Material.mat.meta
+      projectPath: Assets\Material.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\TransparentMaterial.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\TransparentMaterial.mat
+      projectPath: Assets\Materials\TransparentMaterial.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "1.terrainlayer.meta\tAssets\\Materials\\TransparentMaterial.mat.meta"
+      fullPath: "C:\\Users\\clint\\Documents\\GitHub\\katabasis\\1.terrainlayer.meta\tAssets\\Materials\\TransparentMaterial.mat.meta"
+      projectPath: "1.terrainlayer.meta\tAssets\\Materials\\TransparentMaterial.mat.meta"
+      originalPath: Assets\NewLayer
+      status: 6
+      staged: 0
+    - path: Assets\Materials\WhiteMaterial.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\WhiteMaterial.mat
+      projectPath: Assets\Materials\WhiteMaterial.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\WhiteMaterial.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\WhiteMaterial.mat.meta
+      projectPath: Assets\Materials\WhiteMaterial.mat.meta
+      originalPath: Assets\NewLayer.terrainlayer.meta
+      status: 6
+      staged: 0
+    - path: Assets\New Terrain.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+      projectPath: Assets\New Terrain.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\NewLayer 1.terrainlayer
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\NewLayer 1.terrainlayer
+      projectPath: Assets\NewLayer 1.terrainlayer
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\NewLayer.terrainlayer
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\NewLayer.terrainlayer
+      projectPath: Assets\NewLayer.terrainlayer
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Hill.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Hill.prefab
+      projectPath: Assets\Prefabs\Hill.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Hill.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Hill.prefab.meta
+      projectPath: Assets\Prefabs\Hill.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Land.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Land.prefab
+      projectPath: Assets\Prefabs\Land.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Land.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Land.prefab.meta
+      projectPath: Assets\Prefabs\Land.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Mountain.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Mountain.prefab
+      projectPath: Assets\Prefabs\Mountain.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Mountain.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Mountain.prefab.meta
+      projectPath: Assets\Prefabs\Mountain.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Plane.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Plane.prefab
+      projectPath: Assets\Prefabs\Plane.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Plane.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Plane.prefab.meta
+      projectPath: Assets\Prefabs\Plane.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Player.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Player.prefab.meta
+      projectPath: Assets\Prefabs\Player.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Rain.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Rain.prefab
+      projectPath: Assets\Prefabs\Rain.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Rain.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Rain.prefab.meta
+      projectPath: Assets\Prefabs\Rain.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Sea.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Sea.prefab
+      projectPath: Assets\Prefabs\Sea.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Sea.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Sea.prefab.meta
+      projectPath: Assets\Prefabs\Sea.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Terrain.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Terrain.prefab
+      projectPath: Assets\Prefabs\Terrain.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Terrain.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Terrain.prefab.meta
+      projectPath: Assets\Prefabs\Terrain.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Tree.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Tree.prefab
+      projectPath: Assets\Prefabs\Tree.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Tree.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Tree.prefab.meta
+      projectPath: Assets\Prefabs\Tree.prefab.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scene.unity
+      projectPath: Assets\Scene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scene.unity.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scene.unity.meta
+      projectPath: Assets\Scene.unity.meta
+      originalPath: Assets\Scenes\MeshTerrainTest.unity.meta
+      status: 6
+      staged: 0
+    - path: Assets\Scenes\ClintScene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\ClintScene.unity
+      projectPath: Assets\Scenes\ClintScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\ClintScene.unity.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\ClintScene.unity.meta
+      projectPath: Assets\Scenes\ClintScene.unity.meta
+      originalPath: Assets\Scenes\SampleScene.unity.meta
+      status: 6
+      staged: 0
+    - path: Assets\Scenes\MeshTerrainTest.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\MeshTerrainTest.unity
+      projectPath: Assets\Scenes\MeshTerrainTest.unity
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest.meta
+      projectPath: Assets\Scripts\MeshTest.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest\LevelGeneration.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\LevelGeneration.cs
+      projectPath: Assets\Scripts\MeshTest\LevelGeneration.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+      projectPath: Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+      projectPath: Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+      projectPath: Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest\TileGeneration.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\TileGeneration.cs
+      projectPath: Assets\Scripts\MeshTest\TileGeneration.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\MeshTest\TileGeneration.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\TileGeneration.cs.meta
+      projectPath: Assets\Scripts\MeshTest\TileGeneration.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Terrain\GridGen.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\GridGen.cs
+      projectPath: Assets\Scripts\Terrain\GridGen.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Terrain\GridGen.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\GridGen.cs.meta
+      projectPath: Assets\Scripts\Terrain\GridGen.cs.meta
+      originalPath: Assets\Scripts\Weather\RainParticle.cs.meta
+      status: 6
+      staged: 0
+    - path: Assets\Scripts\Terrain\MapGenerator.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\MapGenerator.cs
+      projectPath: Assets\Scripts\Terrain\MapGenerator.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Terrain\MapGenerator.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\MapGenerator.cs.meta
+      projectPath: Assets\Scripts\Terrain\MapGenerator.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Terrain\PerlinTerrainGenerator.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\PerlinTerrainGenerator.cs
+      projectPath: Assets\Scripts\Terrain\PerlinTerrainGenerator.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Terrain\PerlinTerrainGenerator.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\PerlinTerrainGenerator.cs.meta
+      projectPath: Assets\Scripts\Terrain\PerlinTerrainGenerator.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Terrain\TextureHeightmap.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Terrain\TextureHeightmap.cs
+      projectPath: Assets\Scripts\Terrain\TextureHeightmap.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather.meta
+      projectPath: Assets\Scripts\Weather.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather\RainParticle.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\RainParticle.cs
+      projectPath: Assets\Scripts\Weather\RainParticle.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather\WaterLevel.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WaterLevel.cs
+      projectPath: Assets\Scripts\Weather\WaterLevel.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather\WaterLevel.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WaterLevel.cs.meta
+      projectPath: Assets\Scripts\Weather\WaterLevel.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather\WeatherSystem.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs
+      projectPath: Assets\Scripts\Weather\WeatherSystem.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather\WeatherSystem.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs.meta
+      projectPath: Assets\Scripts\Weather\WeatherSystem.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Sprites\noisematerial.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\noisematerial.png.meta
+      projectPath: Assets\Sprites\noisematerial.png.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\whitematerial.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\whitematerial.png
+      projectPath: Assets\Sprites\whitematerial.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\whitematerial.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\whitematerial.png.meta
+      projectPath: Assets\Sprites\whitematerial.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      projectPath: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptMapper
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\0a\0a8b4bc88b88ef248bded2d94dc3af92
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\0a\0a8b4bc88b88ef248bded2d94dc3af92
+      projectPath: Library\metadata\0a\0a8b4bc88b88ef248bded2d94dc3af92
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\0a\0a8b4bc88b88ef248bded2d94dc3af92.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\0a\0a8b4bc88b88ef248bded2d94dc3af92.info
+      projectPath: Library\metadata\0a\0a8b4bc88b88ef248bded2d94dc3af92.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\4a\4af5f7c95b6bf1245862ef1d7214f517
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\4a\4af5f7c95b6bf1245862ef1d7214f517
+      projectPath: Library\metadata\4a\4af5f7c95b6bf1245862ef1d7214f517
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\4a\4af5f7c95b6bf1245862ef1d7214f517.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\4a\4af5f7c95b6bf1245862ef1d7214f517.info
+      projectPath: Library\metadata\4a\4af5f7c95b6bf1245862ef1d7214f517.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\88\8813ae0b0942dae408d8cb717931a160
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\88\8813ae0b0942dae408d8cb717931a160
+      projectPath: Library\metadata\88\8813ae0b0942dae408d8cb717931a160
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\88\8813ae0b0942dae408d8cb717931a160.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\88\8813ae0b0942dae408d8cb717931a160.info
+      projectPath: Library\metadata\88\8813ae0b0942dae408d8cb717931a160.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\92\921cf580ac1e8844da7bf81729f8d224
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\92\921cf580ac1e8844da7bf81729f8d224
+      projectPath: Library\metadata\92\921cf580ac1e8844da7bf81729f8d224
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\92\921cf580ac1e8844da7bf81729f8d224.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\92\921cf580ac1e8844da7bf81729f8d224.info
+      projectPath: Library\metadata\92\921cf580ac1e8844da7bf81729f8d224.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\9e\9e7fc9f9c01c2a6489f997d8a203b99f
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\9e\9e7fc9f9c01c2a6489f997d8a203b99f
+      projectPath: Library\metadata\9e\9e7fc9f9c01c2a6489f997d8a203b99f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\9e\9e7fc9f9c01c2a6489f997d8a203b99f.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\9e\9e7fc9f9c01c2a6489f997d8a203b99f.info
+      projectPath: Library\metadata\9e\9e7fc9f9c01c2a6489f997d8a203b99f.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\ac\ac6dbd82184a3824eb4b72616ea5557a
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\ac\ac6dbd82184a3824eb4b72616ea5557a
+      projectPath: Library\metadata\ac\ac6dbd82184a3824eb4b72616ea5557a
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\ac\ac6dbd82184a3824eb4b72616ea5557a.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\ac\ac6dbd82184a3824eb4b72616ea5557a.info
+      projectPath: Library\metadata\ac\ac6dbd82184a3824eb4b72616ea5557a.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\f2\f2812547c0d15ce488c3942a144e7703
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\f2\f2812547c0d15ce488c3942a144e7703
+      projectPath: Library\metadata\f2\f2812547c0d15ce488c3942a144e7703
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\f2\f2812547c0d15ce488c3942a144e7703.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\f2\f2812547c0d15ce488c3942a144e7703.info
+      projectPath: Library\metadata\f2\f2812547c0d15ce488c3942a144e7703.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\fd\fd86cb4ef71016243a4f5c1327f8e286
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\fd\fd86cb4ef71016243a4f5c1327f8e286
+      projectPath: Library\metadata\fd\fd86cb4ef71016243a4f5c1327f8e286
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\fd\fd86cb4ef71016243a4f5c1327f8e286.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\fd\fd86cb4ef71016243a4f5c1327f8e286.info
+      projectPath: Library\metadata\fd\fd86cb4ef71016243a4f5c1327f8e286.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 2c77c22e1c927bfc4f4b5df5f16a8f8ceabf80d2
+    mergeA: 
+    mergeB: 
+    authorName: cliff-jam
+    authorEmail: cliff.jam.au@gmail.com
+    commitEmail: cliff.jam.au@gmail.com
+    commitName: cliff-jam
+    summary: new map gen style
+    description: 
+    timeString: 2019-04-18T13:13:58.000+10:00
+    commitTimeString: 2019-04-18T13:13:58.000+10:00
+    changes:
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\.vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\katabasis\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Plane.prefab
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Plane.prefab
+      projectPath: Assets\Prefabs\Plane.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Plane.prefab.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Prefabs\Plane.prefab.meta
+      projectPath: Assets\Prefabs\Plane.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\MeshTerrainTest.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\MeshTerrainTest.unity
+      projectPath: Assets\Scenes\MeshTerrainTest.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\MeshTerrainTest.unity.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\MeshTerrainTest.unity.meta
+      projectPath: Assets\Scenes\MeshTerrainTest.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest.meta
+      projectPath: Assets\Scripts\MeshTest.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest\LevelGeneration.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\LevelGeneration.cs
+      projectPath: Assets\Scripts\MeshTest\LevelGeneration.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+      projectPath: Assets\Scripts\MeshTest\LevelGeneration.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+      projectPath: Assets\Scripts\MeshTest\NoiseMapGeneration.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+      projectPath: Assets\Scripts\MeshTest\NoiseMapGeneration.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest\TileGeneration.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\TileGeneration.cs
+      projectPath: Assets\Scripts\MeshTest\TileGeneration.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\MeshTest\TileGeneration.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\MeshTest\TileGeneration.cs.meta
+      projectPath: Assets\Scripts\MeshTest\TileGeneration.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\NewLayer.terrainlayer
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\NewLayer.terrainlayer
+      projectPath: Assets\Scripts\NewLayer.terrainlayer
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\NewLayer.terrainlayer.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\NewLayer.terrainlayer.meta
+      projectPath: Assets\Scripts\NewLayer.terrainlayer.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scripts\Weather\RainParticle.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\RainParticle.cs
+      projectPath: Assets\Scripts\Weather\RainParticle.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Weather\WeatherSystem.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs
+      projectPath: Assets\Scripts\Weather\WeatherSystem.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Weather\WeatherSystem.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs.meta
+      projectPath: Assets\Scripts\Weather\WeatherSystem.cs.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\noisematerial.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\noisematerial.png
+      projectPath: Assets\Sprites\noisematerial.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\noisematerial.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\noisematerial.png.meta
+      projectPath: Assets\Sprites\noisematerial.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      projectPath: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: katabasis.sln
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\katabasis.sln
+      projectPath: katabasis.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: eec90ea63eb2314c4ac99bd76e4b551740dd9d34
+    mergeA: 
+    mergeB: 
+    authorName: cliff-jam
+    authorEmail: cliff.jam.au@gmail.com
+    commitEmail: cliff.jam.au@gmail.com
+    commitName: cliff-jam
+    summary: Tied waterlevel to amount of rain
+    description: 
+    timeString: 2019-04-17T08:40:24.000+10:00
+    commitTimeString: 2019-04-17T08:40:24.000+10:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Materials\SandLayer.terrainlayer
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\SandLayer.terrainlayer
+      projectPath: Assets\Materials\SandLayer.terrainlayer
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\New Terrain.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\New Terrain.asset
+      projectPath: Assets\New Terrain.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Weather\WaterLevel.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WaterLevel.cs
+      projectPath: Assets\Scripts\Weather\WaterLevel.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Weather\WaterLevel.cs.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WaterLevel.cs.meta
+      projectPath: Assets\Scripts\Weather\WaterLevel.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Weather\WeatherSystem.cs
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scripts\Weather\WeatherSystem.cs
+      projectPath: Assets\Scripts\Weather\WeatherSystem.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\sandtexture.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\sandtexture.png
+      projectPath: Assets\Sprites\sandtexture.png
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\sandtexture.png.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\sandtexture.png.meta
+      projectPath: Assets\Sprites\sandtexture.png.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\seatexture.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\seatexture.png
+      projectPath: Assets\Sprites\seatexture.png
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\spritemap.png
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Sprites\spritemap.png
+      projectPath: Assets\Sprites\spritemap.png
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      projectPath: Library\Collab\CollabSnapshot_0cfba8b4-33ba-4d19-a9a0-dee1a1e1ccd1.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\66d156-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\Hierarchy\66d156-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\66d156-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8bcf98-mainStage.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\StateCache\SceneView\8bcf98-mainStage.json
+      projectPath: Library\StateCache\SceneView\8bcf98-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\TerrainTools\PaintTexture
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\TerrainTools\PaintTexture
+      projectPath: Library\TerrainTools\PaintTexture
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\67\67ea28f796c99cc449c22f4f01d70662
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\67\67ea28f796c99cc449c22f4f01d70662
+      projectPath: Library\metadata\67\67ea28f796c99cc449c22f4f01d70662
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63
+      projectPath: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63.info
+      projectPath: Library\metadata\96\9665eb69e4564c840bc4e1b16f8dbd63.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      projectPath: Library\metadata\d5\d50ad8c3ae3cde14eb1f0588e81719aa.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\ProBuilderSettings.json
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\ProjectSettings\ProBuilderSettings.json
+      projectPath: ProjectSettings\ProBuilderSettings.json
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 94eaa01f415e7f032f4cb36e60f622f8b7e2166e
+    mergeA: 815c5be8380aa585874f0ded5c291017f3b8e517
+    mergeB: 7e85c1ae2e963c3f06af33de46f9d17fec9ce064
+    authorName: NJYoung95
+    authorEmail: 48017830+NJYoung95@users.noreply.github.com
+    commitEmail: 48017830+NJYoung95@users.noreply.github.com
+    commitName: NJYoung95
+    summary: Merge branch 'master' of https://github.com/boderman-productions/katabasis
+    description: 
+    timeString: 2019-04-16T14:44:58.000+10:00
+    commitTimeString: 2019-04-16T14:44:58.000+10:00
+    changes: []
   - commitID: 7e85c1ae2e963c3f06af33de46f9d17fec9ce064
     mergeA: 
     mergeB: 
@@ -255,6 +2761,78 @@ MonoBehaviour:
       projectPath: Temp\__Backupscenes\0.backup
       originalPath: 
       status: 5
+      staged: 0
+  - commitID: 815c5be8380aa585874f0ded5c291017f3b8e517
+    mergeA: 
+    mergeB: 
+    authorName: NJYoung95
+    authorEmail: 48017830+NJYoung95@users.noreply.github.com
+    commitEmail: 48017830+NJYoung95@users.noreply.github.com
+    commitName: NJYoung95
+    summary: Test House model
+    description: 
+    timeString: 2019-04-16T14:41:54.000+10:00
+    commitTimeString: 2019-04-16T14:41:54.000+10:00
+    changes:
+    - path: Assets\Materials\Models.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\Models.meta
+      projectPath: Assets\Materials\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\Models\Buildings.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\Models\Buildings.meta
+      projectPath: Assets\Materials\Models\Buildings.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\Models\Buildings\houseTestMat.mat
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\Models\Buildings\houseTestMat.mat
+      projectPath: Assets\Materials\Models\Buildings\houseTestMat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\Models\Buildings\houseTestMat.mat.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\Models\Buildings\houseTestMat.mat.meta
+      projectPath: Assets\Materials\Models\Buildings\houseTestMat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\Models\Buildings\housetestlol.bmp
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\Models\Buildings\housetestlol.bmp
+      projectPath: Assets\Materials\Models\Buildings\housetestlol.bmp
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\Models\Buildings\housetestlol.bmp.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Materials\Models\Buildings\housetestlol.bmp.meta
+      projectPath: Assets\Materials\Models\Buildings\housetestlol.bmp.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Models.meta
+      projectPath: Assets\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\testHouse.obj
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Models\testHouse.obj
+      projectPath: Assets\Models\testHouse.obj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\testHouse.obj.meta
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Models\testHouse.obj.meta
+      projectPath: Assets\Models\testHouse.obj.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\samplescene_nick.unity
+      fullPath: C:\Users\clint\Documents\GitHub\katabasis\Assets\Scenes\samplescene_nick.unity
+      projectPath: Assets\Scenes\samplescene_nick.unity
+      originalPath: 
+      status: 3
       staged: 0
   - commitID: 79b28e9acdd61167bea7a4027e5ecbcf1f22dcda
     mergeA: 
